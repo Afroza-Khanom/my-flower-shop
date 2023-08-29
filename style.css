@@ -1,0 +1,38 @@
+main{
+    display: flex;
+    background-color: #f3cdd5;
+}
+
+main > div{
+    padding:10px;
+}
+main > div > header{
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 60px;
+    padding-left: 100px;
+}
+.first-section{
+    padding-top: 60px;
+    padding-left: 100px;
+    margin-right: 130px;
+    width: auto;
+}
+.first-section p{
+    padding-right: 50px;
+    padding-left: 100px;
+    color: #00000098;
+}
+.first-section button{
+    background-color: #E55473;
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    margin-left: 90px;
+}
+.first-section-img{
+    padding-right: 80px;
+    margin-right: 50px;
+    width: 100%;
+}
