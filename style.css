@@ -46,10 +46,10 @@ main > div > header{
     justify-content: center;
 }
 
-.second-section-images .first-div{
-    
+.second-section-images #first{
+    background-color:#f3cdd5;
+    padding: 50px;
 }
-
 .second-section-images #second{
     background-color: #d4f5f7;
     padding: 50px;
@@ -58,4 +58,19 @@ main > div > header{
     background-color: #dbf5c1;
     padding: 50px;
 }
- 
+
+.second-section-second-part{
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+    background-color: aliceblue;
+    justify-content: center;
+    padding:40px ;
+    width: 70%;
+    margin-left:150px ;
+}
+
+.second-section-second-part div{
+    padding: 20px;
+    text-align: center;
+}
