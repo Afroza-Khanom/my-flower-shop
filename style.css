@@ -42,21 +42,33 @@ main > div > header{
 }
 .second-section-images{
     display: flex;
-    gap: 2px;
     justify-content: center;
 }
 
 .second-section-images #first{
     background-color:#f3cdd5;
-    padding: 50px;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 150px;   /* For half circle */
+    border-top-right-radius: 150px;
 }
 .second-section-images #second{
     background-color: #d4f5f7;
-    padding: 50px;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 150px;   /* For half circle */
+    border-top-right-radius: 150px;
 }
 .second-section-images #third{
     background-color: #dbf5c1;
-    padding: 50px;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 150px;    /* For half circle */
+    border-top-right-radius: 150px;
+    
 }
 
 .second-section-second-part{
