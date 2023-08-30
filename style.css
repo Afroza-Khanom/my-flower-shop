@@ -74,3 +74,35 @@ main > div > header{
     padding: 20px;
     text-align: center;
 }
+.third-section{
+    display: flex;
+    background-color: #f1d9de;
+    margin-top: 80px;
+    gap: 50px; 
+    padding-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.third-section-heading{
+    width: 100%;
+}
+.third-section-heading > header{
+    font-size: 20px;
+    font-weight: 800;
+}
+.third-section-heading > p{
+    color: #00000098;
+    text-align: center;
+}
+.third-section-heading button{
+    background-color: #E55473;
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    margin-left: 220px;
+}
+.third-section-img{
+    width: 100%;
+    padding-left: 120px;
+}
