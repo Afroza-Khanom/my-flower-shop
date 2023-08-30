@@ -113,17 +113,23 @@ main > div > header{
 
 .fourth-section-images{
     display: flex;
-    gap: 5px;
     justify-content: center;
+    /* margin: auto; */
+}
+
+.fourth-section-images > div{
+    justify-content: space-around;
 }
 
 .image-box{
     flex: 1;
+    row-gap: 0px;
 }
 
 .fourth-section-images .image-box img{
     display: block;
     max-width: 100%;
+    /* margin: auto; */
     /* height: auto; */
 }
 
@@ -209,4 +215,19 @@ main > div > header{
     border: none;
     border-radius: 6px;
     padding: 15px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 8%;
+    height: 50vh;
+}
+
+footer > h1{
+    color: white;
+}
+
+footer > p{
+    color: rgba(255, 255, 255, 0.582);
 }
