@@ -36,3 +36,26 @@ main > div > header{
     margin-right: 50px;
     width: 100%;
 }
+.second-section header{
+    text-align: center;
+    padding: 60px;
+}
+.second-section-images{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+}
+
+.second-section-images .first-div{
+    
+}
+
+.second-section-images #second{
+    background-color: #d4f5f7;
+    padding: 50px;
+}
+.second-section-images #third{
+    background-color: #dbf5c1;
+    padding: 50px;
+}
+ 
