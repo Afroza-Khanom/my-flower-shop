@@ -106,3 +106,23 @@ main > div > header{
     width: 100%;
     padding-left: 120px;
 }
+.fourth-section header{
+    text-align: center;
+    padding: 60px;
+}
+
+.fourth-section-images{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.image-box{
+    flex: 1;
+}
+
+.fourth-section-images .image-box img{
+    display: block;
+    max-width: 100%;
+    /* height: auto; */
+}
