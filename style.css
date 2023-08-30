@@ -159,3 +159,54 @@ main > div > header{
     padding: 15px;
     /* margin-left: 120px; */
 }
+
+/* bonus section */
+
+.bonus-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 5%;
+    /* margin: auto; */
+}
+
+.bonus-section .content{
+    /* margin: auto;    baki gulo te try korio */
+    background-color: #ecdbdf;
+    width: 50%;
+    border-radius: 10px;
+    padding: 50px 100px;
+    margin-left: 100px;
+    height: 70vh;
+    text-align: center;
+}
+
+.bonus-section .feedback-form{
+    width: 50%;
+    /* margin: 0 auto; */
+    margin: 80px;
+    background-color: #f0dee2;
+    padding: 20px;
+    border-radius: 10px;
+    height: 80vh;
+}
+
+.input-field{
+    padding: 10px;
+}
+.input-field input, textarea{
+    display: block;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.input-field button{
+    background-color: #E55473;
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+}
