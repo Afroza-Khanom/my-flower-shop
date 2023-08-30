@@ -126,3 +126,36 @@ main > div > header{
     max-width: 100%;
     /* height: auto; */
 }
+
+.fifth-section{
+    text-align: center;
+    /* padding-top: 60px; */
+}
+.fifth-section h1{
+    /* text-align: center; */
+    font-weight: 1000;
+}
+
+.fifth-section p{
+    /* text-align: center; */
+    color: #00000098;
+}
+
+.fifth-section-input{
+    padding-top: 30px;
+}
+.fifth-section-input input{
+    border-radius: 6px;
+    padding: 15px;
+    width: 50%;
+    border: none;
+    justify-content: center;
+}
+.fifth-section-input button{
+    background-color: #E55473;
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    /* margin-left: 120px; */
+}
